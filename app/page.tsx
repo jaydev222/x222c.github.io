@@ -230,7 +230,7 @@ export default function Home() {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <Image
-                  src={`${process.env.NODE_ENV === 'production' ? '/creative-agency-mvp' : ''}/placeholder.svg?height=400&width=400`}
+                  src="/placeholder.svg?height=400&width=400"
                   alt="Project 1"
                   className="object-cover"
                   fill
@@ -247,7 +247,7 @@ export default function Home() {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <Image
-                  src={`${process.env.NODE_ENV === 'production' ? '/creative-agency-mvp' : ''}/placeholder.svg?height=400&width=400`}
+                  src="/placeholder.svg?height=400&width=400"
                   alt="Project 2"
                   className="object-cover"
                   fill
@@ -264,7 +264,7 @@ export default function Home() {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <Image
-                  src={`${process.env.NODE_ENV === 'production' ? '/creative-agency-mvp' : ''}/placeholder.svg?height=400&width=400`}
+                  src="/placeholder.svg?height=400&width=400"
                   alt="Project 3"
                   className="object-cover"
                   fill
@@ -282,3 +282,4 @@ export default function Home() {
     </div>
   )
 }
+
